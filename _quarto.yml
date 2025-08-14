@@ -1,23 +1,66 @@
 project:
   type: book
+  output-dir: _book
 
 book:
-  title: "Hemlock Book1"
-  author: "Norah Jones"
-  date: "14/08/2025"
+  title: "Australian Surgical Registry Platform"
+  subtitle: "Software Manual for Clinical Practice"
+  author: 
+    - name: "[Your Name/Organization]"
+      affiliation: "[Your Institution]"
+  date: "2025-08-14"
+  
   chapters:
     - index.qmd
     - intro.qmd
-    - summary.qmd
+    
+    - part: "Getting Started"
+      chapters:
+        - 01-platform-overview.qmd
+        - 02-getting-started.qmd
+        - 03-privacy-compliance.qmd
+    
+    - part: "Clinical Workflows"  
+      chapters:
+        - 04 - patient-management.qmd
+        - 05-clinical-data.qmd
+        - 06-patient-outcomes.qmd
+    
+    - part: "Analytics & Optimization"
+      chapters:
+        - 07-reporting-analytics.qmd
+        - 08-workflow-integration.qmd
+    
+    - part: "Support & Advanced Topics"
+      chapters:
+        - 09-troubleshooting.qmd
+        - 10-future-integrations.qmd
+        - appendices.qmd
+    
     - references.qmd
 
-bibliography: references.bib
+  appendices:
+    - appendices.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      - cosmo
+      - custom.scss
+    cover-image: cover.png
+    favicon: favicon.ico
+    search: true
+    repo-url: https://github.com/[your-repo]/hemlock-manual
+    repo-actions: [edit, issue]
+    
   pdf:
-    documentclass: scrreprt
+    documentclass: scrbook
+    keep-tex: true
 
-editor: visual
+execute:
+  freeze: auto
+  cache: true
+
+bibliography: references.bib
+csl: apa.csl  # Medical citation style
 
