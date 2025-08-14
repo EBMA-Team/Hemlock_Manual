@@ -3,7 +3,7 @@ project:
   output-dir: _book
 
 book:
-  title: "Australian Surgical Registry Platform"
+  title: "Hemlock Surgical Support Platform"
   subtitle: "Software Manual for Clinical Practice"
   author: 
     - name: "[Your Name/Organization]"
@@ -22,9 +22,9 @@ book:
     
     - part: "Clinical Workflows"  
       chapters:
-        - 04 - patient-management.qmd
+        - 04-patient-management.qmd
         - 05-clinical-data.qmd
-        - 06-patient-outcomes.qmd
+        - 06-patient-treatment-outcomes.qmd
     
     - part: "Analytics & Optimization"
       chapters:
@@ -34,7 +34,7 @@ book:
     - part: "Support & Advanced Topics"
       chapters:
         - 09-troubleshooting.qmd
-        - 10-future-integrations.qmd
+        - 10-development.qmd
         - appendices.qmd
     
     - references.qmd
@@ -62,5 +62,5 @@ execute:
   cache: true
 
 bibliography: references.bib
-csl: apa.csl  # Medical citation style
+#csl: vancouver.csl  # Medical citation style
 
