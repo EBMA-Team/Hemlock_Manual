@@ -75,9 +75,6 @@ format:
           \usepackage{longtable}
           \usepackage{booktabs}
           \usepackage{array}
-    template-partials:
-      - before-body.tex
-      - after-body.tex
 
 execute:
   freeze: auto

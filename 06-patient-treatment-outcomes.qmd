@@ -6,7 +6,7 @@
 
 ### Validated Instruments by Specialty
 
-```{r prom-table}
+```{r}
 #| echo: false
 #| label: tbl-proms
 #| tbl-cap: "Validated PROM instruments by surgical specialty"
