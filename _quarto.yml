@@ -43,9 +43,9 @@ book:
 
 format:
   html:
-    theme: 
-      - cosmo
-      - custom.scss
+    # theme: 
+    #   - cosmo
+    #   - custom.scss
     cover-image: cover.png
     favicon: favicon.ico
     search: true
