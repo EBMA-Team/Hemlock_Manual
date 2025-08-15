@@ -4,9 +4,9 @@
     "href": "index.html",
     "title": "Hemlock Surgical Support Platform",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
+    "text": "Australian Surgical Registry Platform\nWelcome to the comprehensive software manual for the Australian Surgical Registry Platform. This manual provides detailed guidance for surgeons and clinical staff across general surgery, anaesthesia, and orthopaedic surgery practices.",
     "crumbs": [
-      "Preface"
+      "Australian Surgical Registry Platform"
     ]
   },
   {
@@ -22,67 +22,67 @@
   {
     "objectID": "01-platform-overview.html",
     "href": "01-platform-overview.html",
-    "title": "2  Introduction",
+    "title": "2  Platform Overview",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "2.1 Registry Purpose & Clinical Benefits\nThe Australian Surgical Registry Platform is designed to support continuous quality improvement in surgical practice through systematic collection of clinical data and patient-reported outcomes.",
     "crumbs": [
       "Getting Started",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Platform Overview</span>"
     ]
   },
   {
     "objectID": "02-getting-started.html",
     "href": "02-getting-started.html",
-    "title": "3  Introduction",
+    "title": "3  Getting Started",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Practical guidance for initial system setup and basic navigation.\n\n4 System Requirements & Setup\nBrowser compatibility and technical requirements Network security considerations Mobile device access configuration Initial login and password policies\n\n\n5 Practice Configuration\nPublic vs private practice settings Multi-surgeon practice management Theatre schedules and location setup Staff role assignment and permissions\n\n\n6 Interface Navigation\nDashboard overview and customization Menu structure and quick access features Search functionality and filters Help resources and support access",
     "crumbs": [
       "Getting Started",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Getting Started</span>"
     ]
   },
   {
     "objectID": "03-privacy-compliance.html",
     "href": "03-privacy-compliance.html",
-    "title": "4  Introduction",
+    "title": "4  Privacy Security & Legal Compliance",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "4.1 Australian Privacy Principles (APPs)\nThe platform is designed to comply with the Privacy Act 1988 and the Australian Privacy Principles.",
     "crumbs": [
       "Getting Started",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Privacy Security & Legal Compliance</span>"
     ]
   },
   {
     "objectID": "04-patient-management.html",
     "href": "04-patient-management.html",
-    "title": "5  Introduction",
+    "title": "5  Patient Management",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Chapter Overview: Patient registration, consent management, and communication workflows.\n#Patient Registration Process\nNew patient enrollment workflow Medicare number integration and validation Demographics collection and verification Duplicate patient detection and merging\n#Informed Consent Management\nRegistry participation consent forms Electronic consent capture and storage Consent withdrawal procedures and data handling Patient education materials and resources\n#Patient Communication Systems\nAutomated reminder systems for follow-ups Patient portal access and navigation Multi-channel communication preferences Privacy-compliant messaging protocols",
     "crumbs": [
       "Clinical Workflows",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Patient Management</span>"
     ]
   },
   {
     "objectID": "05-clinical-data.html",
     "href": "05-clinical-data.html",
-    "title": "6  Introduction",
+    "title": "6  Clinical Data",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Chapter Overview: Comprehensive clinical data collection across the surgical care continuum.\nPre-operative Data Collection\nPatient history and risk factor assessment Clinical examination findings Diagnostic test results integration Anaesthetic risk stratification\nIntra-operative Documentation\nSurgical procedure coding (MBS alignment) Operative technique and approach documentation Complication recording and classification Device and implant tracking systems Anaesthetic management and monitoring\nPost-operative Follow-up\nImmediate post-operative assessment Complication surveillance and reporting Discharge planning and coordination Long-term follow-up scheduling",
     "crumbs": [
       "Clinical Workflows",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Clinical Data</span>"
     ]
   },
   {
     "objectID": "06-patient-treatment-outcomes.html",
     "href": "06-patient-treatment-outcomes.html",
-    "title": "7  Introduction",
+    "title": "7  Patient-Reported Outcome Measures (PROMs)",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "7.1",
     "crumbs": [
       "Clinical Workflows",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Patient-Reported Outcome Measures (PROMs)</span>"
     ]
   },
   {
@@ -110,34 +110,34 @@
   {
     "objectID": "09-troubleshooting.html",
     "href": "09-troubleshooting.html",
-    "title": "10  Introduction",
+    "title": "10  Troubleshooting",
     "section": "",
     "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "Support & Advanced Topics",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Troubleshooting</span>"
     ]
   },
   {
     "objectID": "10-development.html",
     "href": "10-development.html",
-    "title": "11  Introduction",
+    "title": "11  Development",
     "section": "",
     "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "Support & Advanced Topics",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Development</span>"
     ]
   },
   {
     "objectID": "appendices.html",
     "href": "appendices.html",
-    "title": "12  Introduction",
+    "title": "Appendix A — Appendices",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "B 1 - Patient-reported outcomes\n\n\nC 2 - Glossary\n\n\nD 3 - Calculations and algorithms",
     "crumbs": [
-      "Support & Advanced Topics",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Introduction</span>"
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Appendices</span>"
     ]
   },
   {
@@ -148,6 +148,113 @@
     "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "References"
+    ]
+  },
+  {
+    "objectID": "index.html#who-this-manual-is-for",
+    "href": "index.html#who-this-manual-is-for",
+    "title": "Hemlock Surgical Support Platform",
+    "section": "Who This Manual Is For",
+    "text": "Who This Manual Is For\n\nSurgeons in public and private practice\nAnaesthetists and anaesthetic staff\n\nPractice managers and administrative staff\nClinical researchers interested in accessing registry or outcomes data",
+    "crumbs": [
+      "Australian Surgical Registry Platform"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use-this-manual",
+    "href": "index.html#how-to-use-this-manual",
+    "title": "Hemlock Surgical Support Platform",
+    "section": "How to Use This Manual",
+    "text": "How to Use This Manual\nThis manual is organized into four main parts:\n\nGetting Started: Platform introduction and setup\nClinical Workflows: Day-to-day usage guidance\nAnalytics & Optimization: Reports and practice improvement\nSupport & Advanced Topics: Troubleshooting and future features",
+    "crumbs": [
+      "Australian Surgical Registry Platform"
+    ]
+  },
+  {
+    "objectID": "index.html#quick-navigation",
+    "href": "index.html#quick-navigation",
+    "title": "Hemlock Surgical Support Platform",
+    "section": "Quick Navigation",
+    "text": "Quick Navigation\n\n\n\n\n\n\nNew Users Start Here\n\n\n\nIf you’re new to the platform, begin with ?sec-getting-started and ?sec-privacy-compliance.\n\n\n\n\n\n\n\n\nAustralian Context\n\n\n\nThis manual specifically addresses Australian healthcare workflows, privacy requirements, and clinical practice standards.",
+    "crumbs": [
+      "Australian Surgical Registry Platform"
+    ]
+  },
+  {
+    "objectID": "06-patient-treatment-outcomes.html#prom-selection-and-implementation",
+    "href": "06-patient-treatment-outcomes.html#prom-selection-and-implementation",
+    "title": "7  Patient-Reported Outcome Measures (PROMs)",
+    "section": "7.2 PROM Selection and Implementation",
+    "text": "7.2 PROM Selection and Implementation\n\n7.2.1 Validated Instruments by Specialty\n\n\nWarning: package 'knitr' was built under R version 4.4.3\n\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\n\n\n\nTable 7.1: Validated PROM instruments by surgical specialty\n\n\n\n\n\n\n\n\n\n\n\n\nSpecialty\nInstrument\nTimepoints\nDescription\n\n\n\n\nGeneral Surgery\nEQ-5D-5L\nPre-op, 6mo, 12mo\nGeneric quality of life\n\n\nGeneral Surgery\nBODY-Q\nPre-op, 3mo, 6mo, 12mo\nBody image after surgery\n\n\nOrthopaedics\nOxford Hip Score\nPre-op, 6mo, 12mo\nHip-specific outcomes\n\n\nOrthopaedics\nWOMAC\nPre-op, 6mo, 12mo\nKnee/hip arthritis outcomes\n\n\nAnaesthesia\nQoR-15\n24hr, 7d post-op\nQuality of recovery",
+    "crumbs": [
+      "Clinical Workflows",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Patient-Reported Outcome Measures (PROMs)</span>"
+    ]
+  },
+  {
+    "objectID": "06-patient-treatment-outcomes.html#sec-prom-workflow",
+    "href": "06-patient-treatment-outcomes.html#sec-prom-workflow",
+    "title": "7  Patient-Reported Outcome Measures (PROMs)",
+    "section": "7.3 PROM Workflow Management",
+    "text": "7.3 PROM Workflow Management\n\n7.3.1 Automated Scheduling\nThe platform automatically schedules PROM surveys based on:\n\nSurgical procedure type\nEvidence-based follow-up intervals\nPatient consent preferences\nClinical milestone events\n\n\n\n7.3.2 Patient Communication\n\n\n\n\n\n\nPatient Engagement Strategies\n\n\n\n\nSend reminder emails 3 days before due date\nProvide mobile-friendly survey links\nOffer phone support for technical difficulties\nSend thank you messages after completion\n\n\n\n\n\n\n\n\nflowchart TD\n    A[Surgery Completed] --&gt; B[PROM Scheduled]\n    B --&gt; C[Patient Notification]\n    C --&gt; D{Response Received?}\n    D --&gt;|Yes| E[Data Recorded]\n    D --&gt;|No| F[Reminder Sent]\n    F --&gt; G[Phone Follow-up]\n    E --&gt; H[Outcome Analysis]",
+    "crumbs": [
+      "Clinical Workflows",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Patient-Reported Outcome Measures (PROMs)</span>"
+    ]
+  },
+  {
+    "objectID": "01-platform-overview.html#sec-registry-benefits",
+    "href": "01-platform-overview.html#sec-registry-benefits",
+    "title": "2  Platform Overview",
+    "section": "",
+    "text": "2.1.1 Key Benefits for Clinical Practice\n\nOutcome Monitoring: Track patient-reported outcome measures (PROMs) pre and post-operatively\nQuality Improvement: Identify opportunities for practice enhancement\nBenchmarking: Compare outcomes with specialty standards\nResearch Support: Facilitate clinical research and audit activities",
+    "crumbs": [
+      "Getting Started",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Platform Overview</span>"
+    ]
+  },
+  {
+    "objectID": "01-platform-overview.html#sec-specialties",
+    "href": "01-platform-overview.html#sec-specialties",
+    "title": "2  Platform Overview",
+    "section": "2.2 Surgical Specialties Supported",
+    "text": "2.2 Surgical Specialties Supported\n\n2.2.1 General Surgery Applications\n\nProcedure-specific outcome tracking\nComplication monitoring and analysis\nPatient satisfaction measurement\n\n\n\n2.2.2 Anaesthesia Integration\n\nPeri-operative risk assessment\nAnaesthetic outcome tracking\nMulti-disciplinary case review\n\n\n\n2.2.3 Orthopaedic Surgery Features\n\nJoint replacement outcome monitoring\nFunctional assessment tools\nLong-term follow-up management",
+    "crumbs": [
+      "Getting Started",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Platform Overview</span>"
+    ]
+  },
+  {
+    "objectID": "01-platform-overview.html#sec-australian-context",
+    "href": "01-platform-overview.html#sec-australian-context",
+    "title": "2  Platform Overview",
+    "section": "2.3 Australian Healthcare Context",
+    "text": "2.3 Australian Healthcare Context\nThe platform integrates with Australian healthcare workflows while maintaining compliance with local privacy and clinical governance requirements.\n\n\n\n\n\n\nMedicare and Private Practice\n\n\n\nThe system accommodates both public hospital and private practice workflows, with appropriate billing and administrative features.",
+    "crumbs": [
+      "Getting Started",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Platform Overview</span>"
+    ]
+  },
+  {
+    "objectID": "03-privacy-compliance.html#sec-apps",
+    "href": "03-privacy-compliance.html#sec-apps",
+    "title": "4  Privacy Security & Legal Compliance",
+    "section": "",
+    "text": "4.1.1 Collection and Use Requirements\n\nLawful Collection: Data collected only for legitimate clinical purposes\nNotification: Patients informed of data collection and use\nConsent Management: Explicit consent for registry participation\nData Security: Appropriate safeguards for health information",
+    "crumbs": [
+      "Getting Started",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Privacy Security & Legal Compliance</span>"
+    ]
+  },
+  {
+    "objectID": "03-privacy-compliance.html#sec-qualified-privilege",
+    "href": "03-privacy-compliance.html#sec-qualified-privilege",
+    "title": "4  Privacy Security & Legal Compliance",
+    "section": "4.2 Qualified Privilege in Clinical Context",
+    "text": "4.2 Qualified Privilege in Clinical Context\nUnderstanding qualified privilege is crucial for protecting registry data used in quality improvement activities.\n\n4.2.1 What is Qualified Privilege?\nQualified privilege provides legal protection for communications and documents created for quality assurance activities, including:\n\nClinical audit and review activities\nQuality improvement initiatives\n\nProfessional development and education\nRoot cause analysis of clinical incidents\n\n\n\n4.2.2 Registry Data and Qualified Privilege\n\n\n\n\n\n\nDocumentation Requirements\n\n\n\nTo maintain qualified privilege protection, registry activities must be properly documented as quality assurance activities with appropriate governance oversight.\n\n\n\n4.2.2.1 Requirements for Protection\n\nPurpose: Data collection must be for quality improvement purposes\nGovernance: Appropriate clinical governance oversight\nDocumentation: Clear records of quality assurance intent\nAccess Controls: Limited access to authorized personnel\n\n\n\n\n4.2.3 Practical Implications\n\nLegal Discovery: Privileged data may be protected from legal discovery\nReporting Obligations: Some reporting requirements may override privilege\nMulti-jurisdictional Considerations: Different states may have varying protections\n\n\n\n\n\n\n\nLegal Advice Required\n\n\n\nQualified privilege is complex and context-dependent. Consult with your organization’s legal counsel for specific advice on privilege protection.",
+    "crumbs": [
+      "Getting Started",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Privacy Security & Legal Compliance</span>"
     ]
   }
 ]

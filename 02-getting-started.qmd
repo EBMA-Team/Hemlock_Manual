@@ -1,9 +1,29 @@
-# Introduction
+# Getting Started {#sec-getting-started}
 
-This is a book created from markdown and executable code.
+Practical guidance for initial system setup and basic navigation.
 
-See @knuth84 for additional discussion of literate programming.
+# System Requirements & Setup
 
-```{r}
-1 + 1
-```
+Browser compatibility and technical requirements
+Network security considerations
+Mobile device access configuration
+Initial login and password policies
+
+
+# Practice Configuration
+
+Public vs private practice settings
+Multi-surgeon practice management
+Theatre schedules and location setup
+Staff role assignment and permissions
+
+
+# Interface Navigation
+
+Dashboard overview and customization
+Menu structure and quick access features
+Search functionality and filters
+Help resources and support access
+
+
+

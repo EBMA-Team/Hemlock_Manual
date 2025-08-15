@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Hemlock Surgical Support Platform - 7&nbsp; Introduction</title>
+<title>Hemlock Surgical Support Platform - 7&nbsp; Patient-Reported Outcome Measures (PROMs)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,61 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -122,6 +68,9 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -135,7 +84,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./04-patient-management.html">Clinical Workflows</a></li><li class="breadcrumb-item"><a href="./06-patient-treatment-outcomes.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Introduction</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./04-patient-management.html">Clinical Workflows</a></li><li class="breadcrumb-item"><a href="./06-patient-treatment-outcomes.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Patient-Reported Outcome Measures (PROMs)</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -163,7 +112,7 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Preface</span></a>
+ <span class="menu-text">Australian Surgical Registry Platform</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -190,7 +139,7 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./02-getting-started.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Getting Started</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -213,19 +162,19 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./04-patient-management.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Patient Management</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./05-clinical-data.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Clinical Data</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./06-patient-treatment-outcomes.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Patient-Reported Outcome Measures (PROMs)</span></span></a>
   </div>
 </li>
       </ul>
@@ -311,14 +260,29 @@ div.csl-indent {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#sec-prom-selection" id="toc-sec-prom-selection" class="nav-link active" data-scroll-target="#sec-prom-selection"><span class="header-section-number">7.1</span> </a></li>
+  <li><a href="#prom-selection-and-implementation" id="toc-prom-selection-and-implementation" class="nav-link" data-scroll-target="#prom-selection-and-implementation"><span class="header-section-number">7.2</span> PROM Selection and Implementation</a>
+  <ul class="collapse">
+  <li><a href="#validated-instruments-by-specialty" id="toc-validated-instruments-by-specialty" class="nav-link" data-scroll-target="#validated-instruments-by-specialty"><span class="header-section-number">7.2.1</span> Validated Instruments by Specialty</a></li>
+  </ul></li>
+  <li><a href="#sec-prom-workflow" id="toc-sec-prom-workflow" class="nav-link" data-scroll-target="#sec-prom-workflow"><span class="header-section-number">7.3</span> PROM Workflow Management</a>
+  <ul class="collapse">
+  <li><a href="#automated-scheduling" id="toc-automated-scheduling" class="nav-link" data-scroll-target="#automated-scheduling"><span class="header-section-number">7.3.1</span> Automated Scheduling</a></li>
+  <li><a href="#patient-communication" id="toc-patient-communication" class="nav-link" data-scroll-target="#patient-communication"><span class="header-section-number">7.3.2</span> Patient Communication</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./04-patient-management.html">Clinical Workflows</a></li><li class="breadcrumb-item"><a href="./06-patient-treatment-outcomes.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Introduction</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./04-patient-management.html">Clinical Workflows</a></li><li class="breadcrumb-item"><a href="./06-patient-treatment-outcomes.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Patient-Reported Outcome Measures (PROMs)</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Introduction</span></h1>
+<h1 class="title"><span id="sec-proms" class="quarto-section-identifier"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Patient-Reported Outcome Measures (PROMs)</span></span></h1>
 </div>
 
 
@@ -335,21 +299,148 @@ div.csl-indent {
 </header>
 
 
-<p>This is a book created from markdown and executable code.</p>
-<p>See <span class="citation" data-cites="knuth84">Knuth (<a href="references.html#ref-knuth84" role="doc-biblioref">1984</a>)</span> for additional discussion of literate programming.</p>
+<section id="sec-prom-selection" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="sec-prom-selection"><span class="header-section-number">7.1</span> </h2>
+</section>
+<section id="prom-selection-and-implementation" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="prom-selection-and-implementation"><span class="header-section-number">7.2</span> PROM Selection and Implementation</h2>
+<section id="validated-instruments-by-specialty" class="level3" data-number="7.2.1">
+<h3 data-number="7.2.1" class="anchored" data-anchor-id="validated-instruments-by-specialty"><span class="header-section-number">7.2.1</span> Validated Instruments by Specialty</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'knitr' was built under R version 4.4.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'dplyr'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:stats':
+
+    filter, lag</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union</code></pre>
+</div>
+<div id="tbl-proms" class="cell quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-proms-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;7.1: Validated PROM instruments by surgical specialty
+</figcaption>
+<div aria-describedby="tbl-proms-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="do-not-create-environment cell table table-sm table-striped small">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 20%">
+<col style="width: 27%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Specialty</th>
+<th style="text-align: left;">Instrument</th>
+<th style="text-align: left;">Timepoints</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">General Surgery</td>
+<td style="text-align: left;">EQ-5D-5L</td>
+<td style="text-align: left;">Pre-op, 6mo, 12mo</td>
+<td style="text-align: left;">Generic quality of life</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">General Surgery</td>
+<td style="text-align: left;">BODY-Q</td>
+<td style="text-align: left;">Pre-op, 3mo, 6mo, 12mo</td>
+<td style="text-align: left;">Body image after surgery</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Orthopaedics</td>
+<td style="text-align: left;">Oxford Hip Score</td>
+<td style="text-align: left;">Pre-op, 6mo, 12mo</td>
+<td style="text-align: left;">Hip-specific outcomes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Orthopaedics</td>
+<td style="text-align: left;">WOMAC</td>
+<td style="text-align: left;">Pre-op, 6mo, 12mo</td>
+<td style="text-align: left;">Knee/hip arthritis outcomes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Anaesthesia</td>
+<td style="text-align: left;">QoR-15</td>
+<td style="text-align: left;">24hr, 7d post-op</td>
+<td style="text-align: left;">Quality of recovery</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</section>
+<section id="sec-prom-workflow" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="sec-prom-workflow"><span class="header-section-number">7.3</span> PROM Workflow Management</h2>
+<section id="automated-scheduling" class="level3" data-number="7.3.1">
+<h3 data-number="7.3.1" class="anchored" data-anchor-id="automated-scheduling"><span class="header-section-number">7.3.1</span> Automated Scheduling</h3>
+<p>The platform automatically schedules PROM surveys based on:</p>
+<ul>
+<li><p>Surgical procedure type</p></li>
+<li><p>Evidence-based follow-up intervals</p></li>
+<li><p>Patient consent preferences</p></li>
+<li><p>Clinical milestone events</p></li>
+</ul>
+</section>
+<section id="patient-communication" class="level3" data-number="7.3.2">
+<h3 data-number="7.3.2" class="anchored" data-anchor-id="patient-communication"><span class="header-section-number">7.3.2</span> Patient Communication</h3>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Patient Engagement Strategies
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><p>Send reminder emails 3 days before due date</p></li>
+<li><p>Provide mobile-friendly survey links</p></li>
+<li><p>Offer phone support for technical difficulties</p></li>
+<li><p>Send thank you messages after completion</p></li>
+</ul>
+</div>
+</div>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    A[Surgery Completed] --&gt; B[PROM Scheduled]
+    B --&gt; C[Patient Notification]
+    C --&gt; D{Response Received?}
+    D --&gt;|Yes| E[Data Recorded]
+    D --&gt;|No| F[Reminder Sent]
+    F --&gt; G[Phone Follow-up]
+    E --&gt; H[Outcome Analysis]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
 </div>
 </div>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
-<div id="ref-knuth84" class="csl-entry" role="listitem">
-Knuth, Donald E. 1984. <span>“Literate Programming.”</span> <em>Comput. J.</em> 27 (2): 97–111. <a href="https://doi.org/10.1093/comjnl/27.2.97">https://doi.org/10.1093/comjnl/27.2.97</a>.
-</div>
-</div>
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -741,8 +832,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./05-clinical-data.html" class="pagination-link  aria-label=" &lt;span="">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Introduction</span></span>
+      <a href="./05-clinical-data.html" class="pagination-link  aria-label=" &lt;span="" data&lt;="" span&gt;"="">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Clinical Data</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

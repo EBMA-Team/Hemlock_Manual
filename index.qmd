@@ -1,9 +1,33 @@
-# Preface {.unnumbered}
+# Australian Surgical Registry Platform {.unnumbered}
 
-This is a Quarto book.
+Welcome to the comprehensive software manual for the Australian Surgical Registry Platform. This manual provides detailed guidance for surgeons and clinical staff across general surgery, anaesthesia, and orthopaedic surgery practices.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+## Who This Manual Is For
 
-```{r}
-1 + 1
-```
+-   **Surgeons** in public and private practice
+-   **Anaesthetists** and anaesthetic staff\
+-   **Practice managers** and administrative staff
+-   **Clinical researchers** interested in accessing registry or outcomes data
+
+## How to Use This Manual
+
+This manual is organized into four main parts:
+
+-   **Getting Started**: Platform introduction and setup
+-   **Clinical Workflows**: Day-to-day usage guidance
+-   **Analytics & Optimization**: Reports and practice improvement
+-   **Support & Advanced Topics**: Troubleshooting and future features
+
+## Quick Navigation
+
+::: callout-tip
+## New Users Start Here
+
+If you're new to the platform, begin with @sec-getting-started and @sec-privacy-compliance.
+:::
+
+::: callout-important
+## Australian Context
+
+This manual specifically addresses Australian healthcare workflows, privacy requirements, and clinical practice standards.
+:::

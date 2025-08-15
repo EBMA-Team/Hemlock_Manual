@@ -1,9 +1,27 @@
-# Introduction
+# Clinical Data {#sec-clinical-data}
 
-This is a book created from markdown and executable code.
+Chapter Overview: Comprehensive clinical data collection across the surgical care continuum.
 
-See @knuth84 for additional discussion of literate programming.
+Pre-operative Data Collection
 
-```{r}
-1 + 1
-```
+Patient history and risk factor assessment
+Clinical examination findings
+Diagnostic test results integration
+Anaesthetic risk stratification
+
+
+Intra-operative Documentation
+
+Surgical procedure coding (MBS alignment)
+Operative technique and approach documentation
+Complication recording and classification
+Device and implant tracking systems
+Anaesthetic management and monitoring
+
+
+Post-operative Follow-up
+
+Immediate post-operative assessment
+Complication surveillance and reporting
+Discharge planning and coordination
+Long-term follow-up scheduling

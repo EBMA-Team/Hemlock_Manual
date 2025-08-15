@@ -22,40 +22,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -116,7 +82,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Preface</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Australian Surgical Registry Platform</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -144,7 +110,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Preface</span></a>
+ <span class="menu-text">Australian Surgical Registry Platform</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -171,7 +137,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./02-getting-started.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Getting Started</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -194,19 +160,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./04-patient-management.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Patient Management</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./05-clinical-data.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Clinical Data</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./06-patient-treatment-outcomes.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Patient-Reported Outcome Measures (PROMs)</span></span></a>
   </div>
 </li>
       </ul>
@@ -296,7 +262,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a></li>
+  <li><a href="#australian-surgical-registry-platform" id="toc-australian-surgical-registry-platform" class="nav-link active" data-scroll-target="#australian-surgical-registry-platform">Australian Surgical Registry Platform</a>
+  <ul class="collapse">
+  <li><a href="#who-this-manual-is-for" id="toc-who-this-manual-is-for" class="nav-link" data-scroll-target="#who-this-manual-is-for">Who This Manual Is For</a></li>
+  <li><a href="#how-to-use-this-manual" id="toc-how-to-use-this-manual" class="nav-link" data-scroll-target="#how-to-use-this-manual">How to Use This Manual</a></li>
+  <li><a href="#quick-navigation" id="toc-quick-navigation" class="nav-link" data-scroll-target="#quick-navigation">Quick Navigation</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -343,18 +314,60 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="preface" class="level1 unnumbered">
-<h1 class="unnumbered">Preface</h1><p><img src="cover.png" title="Hemlock Surgical Support Platform" class="quarto-cover-image img-fluid"></p>
-<p>This is a Quarto book.</p>
-<p>To learn more about Quarto books visit <a href="https://quarto.org/docs/books" class="uri">https://quarto.org/docs/books</a>.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<section id="australian-surgical-registry-platform" class="level1 unnumbered">
+<h1 class="unnumbered">Australian Surgical Registry Platform</h1><p><img src="cover.png" title="Hemlock Surgical Support Platform" class="quarto-cover-image img-fluid"></p>
+<p>Welcome to the comprehensive software manual for the Australian Surgical Registry Platform. This manual provides detailed guidance for surgeons and clinical staff across general surgery, anaesthesia, and orthopaedic surgery practices.</p>
+<section id="who-this-manual-is-for" class="level2">
+<h2 class="anchored" data-anchor-id="who-this-manual-is-for">Who This Manual Is For</h2>
+<ul>
+<li><strong>Surgeons</strong> in public and private practice</li>
+<li><strong>Anaesthetists</strong> and anaesthetic staff<br>
+</li>
+<li><strong>Practice managers</strong> and administrative staff</li>
+<li><strong>Clinical researchers</strong> interested in accessing registry or outcomes data</li>
+</ul>
+</section>
+<section id="how-to-use-this-manual" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-use-this-manual">How to Use This Manual</h2>
+<p>This manual is organized into four main parts:</p>
+<ul>
+<li><strong>Getting Started</strong>: Platform introduction and setup</li>
+<li><strong>Clinical Workflows</strong>: Day-to-day usage guidance</li>
+<li><strong>Analytics &amp; Optimization</strong>: Reports and practice improvement</li>
+<li><strong>Support &amp; Advanced Topics</strong>: Troubleshooting and future features</li>
+</ul>
+</section>
+<section id="quick-navigation" class="level2">
+<h2 class="anchored" data-anchor-id="quick-navigation">Quick Navigation</h2>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+New Users Start Here
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If you’re new to the platform, begin with <span class="quarto-unresolved-ref">?sec-getting-started</span> and <span class="quarto-unresolved-ref">?sec-privacy-compliance</span>.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Australian Context
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This manual specifically addresses Australian healthcare workflows, privacy requirements, and clinical practice standards.</p>
 </div>
 </div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

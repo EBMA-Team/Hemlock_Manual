@@ -1,9 +1,14 @@
-# Introduction
+# Appendices
 
-This is a book created from markdown and executable code.
 
-See @knuth84 for additional discussion of literate programming.
+# 1 - Patient-reported outcomes
 
-```{r}
-1 + 1
-```
+
+
+
+# 2 - Glossary
+
+
+
+
+# 3 - Calculations and algorithms

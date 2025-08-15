@@ -1,9 +1,65 @@
-# Introduction
+# Patient-Reported Outcome Measures (PROMs) {#sec-proms}
 
-This is a book created from markdown and executable code.
+##  {#sec-prom-selection}
 
-See @knuth84 for additional discussion of literate programming.
+## PROM Selection and Implementation
 
-```{r}
-1 + 1
+### Validated Instruments by Specialty
+
+```{r prom-table}
+#| echo: false
+#| label: tbl-proms
+#| tbl-cap: "Validated PROM instruments by surgical specialty"
+
+library(knitr)
+library(dplyr)
+
+proms_data <- data.frame(
+  Specialty = c("General Surgery", "General Surgery", "Orthopaedics", "Orthopaedics", "Anaesthesia"),
+  Instrument = c("EQ-5D-5L", "BODY-Q", "Oxford Hip Score", "WOMAC", "QoR-15"),
+  Timepoints = c("Pre-op, 6mo, 12mo", "Pre-op, 3mo, 6mo, 12mo", "Pre-op, 6mo, 12mo", "Pre-op, 6mo, 12mo", "24hr, 7d post-op"),
+  Description = c("Generic quality of life", "Body image after surgery", "Hip-specific outcomes", "Knee/hip arthritis outcomes", "Quality of recovery")
+)
+
+kable(proms_data)
+```
+
+## PROM Workflow Management {#sec-prom-workflow}
+
+### Automated Scheduling
+
+The platform automatically schedules PROM surveys based on:
+
+-   Surgical procedure type
+
+-   Evidence-based follow-up intervals
+
+-   Patient consent preferences
+
+-   Clinical milestone events
+
+### Patient Communication
+
+::: callout-tip
+## Patient Engagement Strategies
+
+-   Send reminder emails 3 days before due date
+
+-   Provide mobile-friendly survey links
+
+-   Offer phone support for technical difficulties
+
+-   Send thank you messages after completion
+:::
+
+```{mermaid}
+
+flowchart TD
+    A[Surgery Completed] --> B[PROM Scheduled]
+    B --> C[Patient Notification]
+    C --> D{Response Received?}
+    D -->|Yes| E[Data Recorded]
+    D -->|No| F[Reminder Sent]
+    F --> G[Phone Follow-up]
+    E --> H[Outcome Analysis]
 ```

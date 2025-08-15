@@ -1,9 +1,42 @@
-# Introduction
+# Platform Overview {#sec-platform-overview}
 
-This is a book created from markdown and executable code.
+## Registry Purpose & Clinical Benefits {#sec-registry-benefits}
 
-See @knuth84 for additional discussion of literate programming.
+The Australian Surgical Registry Platform is designed to support continuous quality improvement in surgical practice through systematic collection of clinical data and patient-reported outcomes.
 
-```{r}
-1 + 1
-```
+### Key Benefits for Clinical Practice
+
+-   **Outcome Monitoring**: Track patient-reported outcome measures (PROMs) pre and post-operatively
+-   **Quality Improvement**: Identify opportunities for practice enhancement
+-   **Benchmarking**: Compare outcomes with specialty standards
+-   **Research Support**: Facilitate clinical research and audit activities
+
+## Surgical Specialties Supported {#sec-specialties}
+
+### General Surgery Applications
+
+-   Procedure-specific outcome tracking
+-   Complication monitoring and analysis
+-   Patient satisfaction measurement
+
+### Anaesthesia Integration
+
+-   Peri-operative risk assessment
+-   Anaesthetic outcome tracking
+-   Multi-disciplinary case review
+
+### Orthopaedic Surgery Features
+
+-   Joint replacement outcome monitoring
+-   Functional assessment tools
+-   Long-term follow-up management
+
+## Australian Healthcare Context {#sec-australian-context}
+
+The platform integrates with Australian healthcare workflows while maintaining compliance with local privacy and clinical governance requirements.
+
+::: callout-note
+## Medicare and Private Practice
+
+The system accommodates both public hospital and private practice workflows, with appropriate billing and administrative features.
+:::

@@ -1,9 +1,15 @@
-# Introduction
+# Patient Management {#sec-patient-management}
 
-This is a book created from markdown and executable code.
+Chapter Overview: Patient registration, consent management, and communication workflows.
 
-See @knuth84 for additional discussion of literate programming.
+# Patient Registration Process
 
-```{r}
-1 + 1
-```
+New patient enrollment workflow Medicare number integration and validation Demographics collection and verification Duplicate patient detection and merging
+
+# Informed Consent Management
+
+Registry participation consent forms Electronic consent capture and storage Consent withdrawal procedures and data handling Patient education materials and resources
+
+# Patient Communication Systems
+
+Automated reminder systems for follow-ups Patient portal access and navigation Multi-channel communication preferences Privacy-compliant messaging protocols

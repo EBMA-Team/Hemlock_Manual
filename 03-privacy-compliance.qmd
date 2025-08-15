@@ -1,9 +1,52 @@
-# Introduction
+# Privacy Security & Legal Compliance {#sec-privacy-compliance}
 
-This is a book created from markdown and executable code.
+## Australian Privacy Principles (APPs) {#sec-apps}
 
-See @knuth84 for additional discussion of literate programming.
+The platform is designed to comply with the Privacy Act 1988 and the Australian Privacy Principles.
 
-```{r}
-1 + 1
-```
+### Collection and Use Requirements
+
+1.  **Lawful Collection**: Data collected only for legitimate clinical purposes
+2.  **Notification**: Patients informed of data collection and use
+3.  **Consent Management**: Explicit consent for registry participation
+4.  **Data Security**: Appropriate safeguards for health information
+
+## Qualified Privilege in Clinical Context {#sec-qualified-privilege}
+
+Understanding qualified privilege is crucial for protecting registry data used in quality improvement activities.
+
+### What is Qualified Privilege?
+
+Qualified privilege provides legal protection for communications and documents created for quality assurance activities, including:
+
+-   Clinical audit and review activities
+-   Quality improvement initiatives\
+-   Professional development and education
+-   Root cause analysis of clinical incidents
+
+### Registry Data and Qualified Privilege
+
+::: callout-important
+## Documentation Requirements
+
+To maintain qualified privilege protection, registry activities must be properly documented as quality assurance activities with appropriate governance oversight.
+:::
+
+#### Requirements for Protection
+
+1.  **Purpose**: Data collection must be for quality improvement purposes
+2.  **Governance**: Appropriate clinical governance oversight
+3.  **Documentation**: Clear records of quality assurance intent
+4.  **Access Controls**: Limited access to authorized personnel
+
+### Practical Implications
+
+-   **Legal Discovery**: Privileged data may be protected from legal discovery
+-   **Reporting Obligations**: Some reporting requirements may override privilege
+-   **Multi-jurisdictional Considerations**: Different states may have varying protections
+
+::: callout-warning
+## Legal Advice Required
+
+Qualified privilege is complex and context-dependent. Consult with your organization's legal counsel for specific advice on privilege protection.
+:::
